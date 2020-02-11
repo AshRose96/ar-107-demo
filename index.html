@@ -1,40 +1,37 @@
+@ -0,0 +1,36 @@
 <!DOCTYPE html>
 <html>
 
-<!-- A-Frame Image documentation: https://aframe.io/docs/1.0.0/primitives/a-image.html -->
-<!-- Build a basic scene tut is very helpful: https://aframe.io/docs/1.0.0/guides/building-a-basic-scene.html#sidebar-->
-
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>AshRose Demo</title>
-  <script src="aframe.min.js"></script>
-  <script src="aframe-ar.js"></script>
+  <title>(Ashley Rose)</title>
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <link rel="icon" type="image/ico" href="favicon/favicon.ico">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </head>
 
 <body>
-  <a-scene embedded="" arjs="debugUIEnabled: false; detectionMode: mono_and_matrix; matrixCodeType: 3x3;">
 
 
-    <a-assets>
-      <img id="img" src="meDraw.png">
-    </a-assets>
+  <div class="container-fluid">
 
-<!-- 
-    <a-marker type="barcode" value="4">
-      <a-image src="#img" width="3" height="1.5" rotation="90 0 0"></a-image>
-
-    </a-marker> -->
-    <a-marker type="barcode" value="1">
-      <a-box position="0 0.5 0" material="color: purple;"></a-box>
-    </a-marker>
-    <a-marker type="barcode" value="5">
-      <a-sphere position="0 0.5 0" radius=".75" color="#FFA500"></a-sphere>
-    </a-marker>
-    <a-entity camera=""></a-entity>
-  </a-scene>
-
-
+    <div class="row">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-10"><h1>Hello Everyone! Welcome!</h1>
+      <p>demo</p>
+      </div>
+      <div class="col-sm-1"></div>
+    </div>
+  </div>
 </body>
 
 </html>
