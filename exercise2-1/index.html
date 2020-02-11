@@ -17,18 +17,14 @@
 
 
     <a-assets>
-      <img id="cat" src="assets/cat_in_cat.png">
-      <img id="plur" src="assets/PLUR.jpg">
+      <img id="plur" src="assets/meDraw.png">
     </a-assets>
 
 
-    <a-marker type="barcode" value="5">
-      <!-- Using the asset management system. -->
-      <a-image src="#cat" width="3" height="1.5" rotation="90 0 0"></a-image>
-      <!-- Defining the URL inline. Not recommended but more comfortable for web developers. -->
-      <!-- <a-image src="assets/cat_in_cat.png"></a-image> -->
-    </a-marker>
     <a-marker type="barcode" value="3">
+      <a-sphere position="0 0.5 0" radius=".75" color="#FFA500"></a-sphere>
+    </a-marker>
+    <a-marker type="barcode" value="4">
       <!-- Using the asset management system.
     Note the width and height keep your image size in proportion. Position is calculated in "meters" -->
       <a-image src="#plur" width="3" height="1.7" rotation="90 0 0" position="0 2 0"></a-image>

@@ -1,0 +1,85 @@
+body {
+  background-color: lavender;
+  margin: 30px auto;
+  /* max-width: 1000px; */
+  font-family: "Helvetica", "Arial", sans-serif;
+  line-height: 1.5;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+h1 {
+  padding: 20px 0px 10px 0px;
+  text-align: center;
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: lavender;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: mediumpurple;
+}
+
+
+
+
+a{
+color: black;
+text-align: center;
+}
+
+.container-fluid {
+    padding-right:0;
+    padding-left:0;
+    margin-right:auto;
+    margin-left:auto
+ }
+
+.projectA {
+  background-color: lavender;
+  text-align: center
+}
+
+.projectB {
+  background-color: lavender;
+  text-align: center
+}
+
+.projectC {
+  background-color: lavender;
+  text-align: center
+}
+
+.projectD {
+  background-color: lavender;
+  text-align: center
+}
+
+.projectE {
+  background-color: lavender;
+  text-align: center
+}
+
+.projectF {
+  background-color: lavender;
+  text-align: center
+}
