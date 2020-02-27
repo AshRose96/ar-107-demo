@@ -18,6 +18,7 @@
 
     <a-assets>
       <img id="draw" src="assets/lighttrail.png">
+      <img id="crack" src="assets/crack2.png">
     </a-assets>
 
 
@@ -25,6 +26,13 @@
       <!-- Using the asset management system.
     Note the width and height keep your image size in proportion. Position is calculated in "meters" -->
       <a-image src="#draw" width="3" height="1.7" rotation="90 0 0" position="0 2 0"></a-image>
+      <!-- Defining the URL inline. Not recommended but more comfortable for web developers. -->
+      <!-- <a-image src="assets/assets/PLUR.jpg"></a-image> -->
+    </a-marker>
+    <a-marker type="barcode" value="5">
+      <!-- Using the asset management system.
+    Note the width and height keep your image size in proportion. Position is calculated in "meters" -->
+      <a-image src="#crack" width="3" height="1.7" rotation="90 0 0" position="0 2 0"></a-image>
       <!-- Defining the URL inline. Not recommended but more comfortable for web developers. -->
       <!-- <a-image src="assets/assets/PLUR.jpg"></a-image> -->
     </a-marker>
