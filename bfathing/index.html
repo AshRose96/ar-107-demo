@@ -18,9 +18,9 @@
 
 
     <a-assets>
-      <!-- <img id="draw" src="meDraw.png"></img> -->
-      <a-asset-item id="crate-obj" src="untitled.obj"></a-asset-item>
-      <a-asset-item id="crate-mtl" src="untitled.mtl"></a-asset-item>
+      <img id="draw" src="meDraw.png"></img>
+      <!-- <a-asset-item id="crate-obj" src="untitled.obj"></a-asset-item>
+      <a-asset-item id="crate-mtl" src="untitled.mtl"></a-asset-item> -->
       <!-- <video id="crack" autoplay loop="true" src="assets/finalCrack2.mp4"></video> -->
     </a-assets>
 
@@ -28,11 +28,11 @@
     <a-marker type="barcode" value="4">
       <!-- Using the asset management system.
     Note the width and height keep your image size in proportion. Position is calculated in "meters" -->
-      <a-box position='0 0.5 0' rotation="45 0 0" scale="1 1 1" material='color: green;'></a-box>
+      <a-image src="#draw" width="3" height="1.7" rotation="90 0 0" position="0 2 0"></a-image>
       <!-- Defining the URL inline. Not recommended but more comfortable for web developers. -->
       <!-- <a-image src="assets/assets/PLUR.jpg"></a-image> -->
     <a-entity camera=""></a-entity>
-    <a-entity position="0 2.25 -15" particle-system="preset: snow" ></a-entity>
+    <!-- <a-entity position="0 2.25 -15" particle-system="preset: snow" ></a-entity> -->
   </a-marker>
   </a-scene>
 
